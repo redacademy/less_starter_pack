@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Lora:400,400i';
+body {
+  font-family: 'Avenir Next', 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Lora, Georgia, serif;
+}
+.page-title {
+  text-align: center;
+  margin-top: 50px;
+}
+.page-title em {
+  color: #666666;
+}
+.page-title .preprocess {
+  color: #169616;
+}
+.page-title .with {
+  border-bottom: 2px dashed #cf4646;
+}
+.page-title .less {
+  color: #4c7cc7;
+}
+.intro-text {
+  text-align: center;
+  font-size: 1.2em;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.starter-images {
+  padding: 8px;
+  margin-top: 30px;
+}
+.starter-images .starter-image {
+  width: 100%;
+  height: 340px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto 20px;
+}
+.starter-images .starter-image img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  transition: all linear .3s;
+}
+.starter-images .starter-image:hover {
+  overflow: hidden;
+}
+.starter-images .starter-image:hover img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  transition: all linear .3s;
+}
+.starter-images .starter-image.node-logo {
+  background-image: radial-gradient(#ffffff, #cacaca 60%);
+}
+.starter-images .starter-image.less-logo {
+  background-image: radial-gradient(#3b6ebe, #1d365d 60%);
+}
+.starter-images .starter-image.gulp-logo {
+  background-image: radial-gradient(#e49797, #cf4646 60%);
+}
+.starter-images .starter-image.terminal-window {
+  background-image: radial-gradient(#5ee75e, #169616 60%);
+}
+.starter-images .starter-image.terminal-window img {
+  max-width: 60%;
+}
+@media (min-width: 700px) {
+  .starter-images {
+    padding: 10px;
+  }
+  .starter-images:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  .starter-images .starter-image {
+    width: 49%;
+  }
+  .starter-images .starter-image:nth-child(2n+1) {
+    float: left;
+  }
+  .starter-images .starter-image:nth-child(2n) {
+    float: right;
+  }
+}
