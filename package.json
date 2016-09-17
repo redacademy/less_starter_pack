@@ -1,0 +1,25 @@
+{
+  "name": "less_starter",
+  "version": "1.0.0",
+  "description": "Starter project with LESS CSS",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tinacious/less_starter.git"
+  },
+  "author": "Tina Holly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinacious/less_starter/issues"
+  },
+  "homepage": "https://github.com/tinacious/less_starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-less": "^3.1.0",
+    "less-plugin-autoprefix": "^1.5.1"
+  }
+}

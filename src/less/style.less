@@ -1,0 +1,79 @@
+@import './colours';
+@import './typography';
+@import './layout';
+
+
+.starter-images {
+  padding: 8px;
+  margin-top: 30px;
+
+  .starter-image {
+    width: 100%;
+    height: 340px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 20px;
+
+    img {
+      max-width: 80%;
+      display: block;
+      margin: auto;
+      // default scale
+      transform: scale(1);
+      transition: all linear .3s;
+    }
+
+    &:hover {
+      overflow: hidden;
+
+      // animate logo hover
+      img {
+        transform: scale(1.2);
+        transition: all linear .3s;
+      }
+    }
+
+    &.node-logo {
+      background-image: radial-gradient(lighten(@light-grey, 40%), darken(@light-grey, 18%) 60%);
+    }
+
+    &.less-logo {
+      background-image: radial-gradient(lighten(@navy, 25%), @navy 60%);
+    }
+
+    &.gulp-logo {
+      background-image: radial-gradient(lighten(@red, 20%), @red 60%);
+    }
+
+    &.terminal-window {
+      background-image: radial-gradient(lighten(@green, 30%), @green 60%);
+
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 700px) {
+
+  .starter-images {
+    padding: 10px;
+    .clearfix();
+
+    .starter-image {
+      width: 49%;
+
+      &:nth-child(2n+1) {
+        float: left;
+      }
+
+      &:nth-child(2n) {
+        float: right;
+      }
+    }
+  }
+}

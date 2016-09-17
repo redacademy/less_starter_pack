@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Lora:400,400i';
+
+@body-font: 'Avenir Next', 'Helvetica Neue', sans-serif;
+@heading-font: Lora, Georgia, serif;
+
+
+body {
+  font-family: @body-font;
+  color: @dark-grey;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: @heading-font;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 50px;
+
+  em {
+    color: lighten(@dark-grey, 20%);
+  }
+
+  .preprocess {
+    color: @green;
+  }
+
+  .with {
+    border-bottom: 2px dashed @red;
+  }
+
+  .less {
+    color: lighten(@navy, 30%);
+  }
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.2em;
+}
