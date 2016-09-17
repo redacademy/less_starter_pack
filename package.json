@@ -1,20 +1,20 @@
 {
   "name": "less_starter",
   "version": "1.0.0",
-  "description": "Starter project with LESS CSS",
+  "description": "The I can CSS preprocess with Less starter pack",
   "scripts": {
     "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/tinacious/less_starter.git"
+    "url": "git+ssh://git@github.com/tinacious/less_starter_pack.git"
   },
   "author": "Tina Holly",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tinacious/less_starter/issues"
+    "url": "https://github.com/tinacious/less_starter_pack/issues"
   },
-  "homepage": "https://github.com/tinacious/less_starter#readme",
+  "homepage": "https://github.com/tinacious/less_starter_pack#readme",
   "devDependencies": {
     "browser-sync": "^2.16.0",
     "gulp": "^3.9.1",
