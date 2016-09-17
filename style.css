@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Lora:400,400i';
+@import 'https://fonts.googleapis.com/css?family=Lora:700,700i';
 body {
   font-family: 'Avenir Next', 'Helvetica Neue', sans-serif;
   color: #333;
@@ -20,8 +20,9 @@ h5 {
 .page-title .preprocess {
   color: #169616;
 }
-.page-title .with {
+.page-title .starter-pack {
   border-bottom: 2px dashed #cf4646;
+  padding-bottom: 5px;
 }
 .page-title .less {
   color: #4c7cc7;
@@ -40,7 +41,7 @@ h5 {
 }
 .starter-images .starter-image {
   width: 100%;
-  height: 340px;
+  height: 280px;
   padding: 20px;
   box-sizing: border-box;
   display: -webkit-flex;
@@ -95,6 +96,7 @@ h5 {
   }
   .starter-images .starter-image {
     width: 49%;
+    height: 340px;
   }
   .starter-images .starter-image:nth-child(2n+1) {
     float: left;
